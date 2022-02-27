@@ -1,5 +1,5 @@
+//Runge Kutta 4 method to find out the numerical solution of a first order differential equation.
 #include <stdio.h>
-
 #define f(x, y) (y*y - x*x)/(y*y + x*x)              //define any functions  you like
 
 int main()
